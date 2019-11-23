@@ -10,5 +10,6 @@ require_relative '../lib/triangle'
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
+  require 'spec_helper'
 
 end

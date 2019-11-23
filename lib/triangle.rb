@@ -37,3 +37,4 @@ class TriangleError < StandardError
    puts "Try again."
  end
 end
+

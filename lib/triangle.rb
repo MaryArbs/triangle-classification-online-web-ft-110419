@@ -8,11 +8,7 @@ class Triangle
   end
 
   def kind()
-    if @sides.any? {|s| s == 0 } ||
-       @sides.any? {|s| s < 0 } ||
-      #  @side_1 <= 0 ||
-      #  @side_2 <= 0 ||
-      #  @side_3 <= 0||
+    if @side_1 <= 0 || @side_2 <= 0 || @side_3 <= 0||
        @side_1 + @side_2 <= @side_3 || @side_1 + @side_3 <= @side_2 || @side_2 + @side_3 <= @side_1
       begin
            raise TriangleError

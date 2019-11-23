@@ -1,4 +1,4 @@
-require 'spec_helper'
+
 require_relative '../lib/triangle'
 
 # require "spec_helper"

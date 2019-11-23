@@ -27,5 +27,5 @@ end
 class TriangleError < StandardError
  def error
    puts "Try again."
- end 
+ end
 end
